@@ -1,4 +1,4 @@
-# Siddharth Sircar (ss3777) and Dhruv Chaudrey (dc1533)
+# Siddharth Sircar (xxxxxx) and Dhruv Chaudrey (xxxxxx)
 
 This simple C project acts as a word counter, but not like your Microsoft Word standard word counter.
 
