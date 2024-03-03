@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/College Life/Junior Year/Second Semester/Operating Systems Design/Project2",
-      "program": "c:/College Life/Junior Year/Second Semester/Operating Systems Design/Project2/build/Debug/outDebug",
+      "cwd": "c:/College Life/Junior Year/First Semester/Systems Programming/Project2",
+      "program": "c:/College Life/Junior Year/First Semester/Systems Programming/Project2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
