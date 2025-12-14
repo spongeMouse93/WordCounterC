@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -std=c99
 
-SRC = main.c
+SRC = words.c
 TARGET = word_counter
 
 OBJ = $(SRC:.c=.o)
@@ -16,5 +16,6 @@ $(TARGET): $(OBJ)
 
 clean:
 	rm -f $(TARGET) $(OBJ)
+
 
 .PHONY: all clean
