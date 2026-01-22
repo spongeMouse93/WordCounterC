@@ -50,9 +50,8 @@ void processFile(const char *filename, struct HashMap *wordFreq, int *wordFreqSi
         perror("open");
         return;
     }
-    char buffer[MAX_WORD_LENGTH];
+    char buffer[MAX_WORD_LENGTH], word[MAX_WORD_LENGTH];
     ssize_t bytesRead;
-    char word[MAX_WORD_LENGTH];
     int wordLength = 0;
     while ((bytesRead = read(fd, buffer, sizeof(buffer) - 1)) > 0){
         buffer[bytesRead] = '\0';
@@ -142,4 +141,5 @@ int main(int argc, char *argv[]) {
         printf("%s %d\n", wordFreq[i].word, wordFreq[i].freq);
     free(wordFreq);
     return 0;
+
 }
